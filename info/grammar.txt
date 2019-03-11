@@ -1,0 +1,25 @@
+<program> ::= <list of statements>
+<list of statements> ::= <list of statements> <statement>;|<statement>;
+<statement> ::= <if statement>|<iteration statement>|<assignment statement>|<output>|input
+<if statement> ::=	if <logical expression> then <list of statements in braces> else <list of statements in braces>
+<list of statements in braces> = { <list of statements> }
+<iteration statement> ::= while <logical expression> do <list of statements in braces> enddo
+<output> ::= write <expression>
+<input> ::= read <identifier>
+<list of identifiers> ::= <list of identifiers>, <identifier> | <identifier>
+<logical expression> ::= <identifier> <logical operator> <expression>
+<logical operator> ::= == | != | >= | <= | > | <
+<assignment statement> ::= <identifier> = (<expression> | <logical expression>)
+
+<expression> ::= <expression> + <term>|<expression> - <term>|<term>|-<term>
+<term>::=<multiplier> | <term> * <multiplier> | <term> / <multiplier>
+<multiplier> ::= <identifier>|<constant>|(<expression>)
+
+<alpha numeric> = <alpha numeric>(<letter> | <digit> )
+<identifier> ::= <letter> | <letter><alpha numeric>
+
+<constant> ::= <integer> | .<positive integer> | <integer>.<positive integer>|.<positive integer>
+<integer> ::= (+|-|^)<positive integer>
+<positive integer>  ::= <digit> | <positive integer><digit>
+<letter> ::= a | b | ... | z
+<digit> ::= 0 | 1 | ... | 9

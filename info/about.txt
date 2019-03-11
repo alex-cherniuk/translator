@@ -1,0 +1,4 @@
+This compiler is a course project on the subject "Translators." 
+National Technical University of Ukraine "Igor Sikorsky Kyiv Polytechnic Institute", 
+Heat-and-Power Engineering Department.
+Made by Alex Cherniuk. 2018.

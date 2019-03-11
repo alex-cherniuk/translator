@@ -1,0 +1,25 @@
+a = 1;
+read a10_asdf;
+b234 = -10* a10_asdf * a10_asdf / 20 + a10_asdf + 10;
+
+if (a10_asdf > 1) then {
+	write a10_asdf;
+}
+else {
+	if a10_asdf == 1 then {
+		write 1;
+	}
+	else {
+		write 0;
+	};
+	write 100500;
+	write a10_asdf;
+};
+
+while b234 >= a10_asdf do {
+	write b234;
+	write a10_asdf;
+	write b234;
+} enddo;
+
+write 100500;

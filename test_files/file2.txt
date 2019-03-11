@@ -1,0 +1,17 @@
+a = 10;
+read b;
+if a == 10 then
+{
+	c = a + b;
+	while c > 0 do
+	{
+		write 5*c;
+		c = c - 1;
+	}
+	enddo;
+}
+else
+{
+	c = a - b;
+	write c;
+};
